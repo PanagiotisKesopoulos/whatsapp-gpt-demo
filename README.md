@@ -1,11 +1,12 @@
-# WhatsApp GPT-4 Assistant (Demo)
+Multi-Business WhatsApp GPT-4 Assistant (Demo)
+This is a simple demo backend I built using FastAPI + OpenAI GPT-4 to simulate a smart assistant that could answer WhatsApp messages for small businesses (like dentists, barbershops, etc.).
 
-This is a FastAPI endpoint demo that powers a WhatsApp-based assistant using GPT-4.
+👨‍🔧 Use Case: Local businesses needing automated customer support
+🧠 AI Brain: GPT-4 via OpenAI API
+💬 Chat Interface: Simulated WhatsApp logic (WhatsApp API not connected in this version)
 
-👨‍⚕️ Use Case: Dental clinics (SmileBright, Austin TX)  
-🧠 Powered by: OpenAI GPT-4  
-📱 Messaging via: Twilio WhatsApp API (not included here)
+I'm using this repo to show I can build and structure an MVP-style AI assistant backend.
+Each business can have its own services, hours, and custom prompt loaded on the fly.
 
-This is a demo snippet for showcasing backend logic during client interviews.
-
-Feel free to fork and build on top of it.
+It's not connected to Twilio or WhatsApp yet — just focusing on the core logic here.
+You’re welcome to fork it or build from it.
